@@ -22,6 +22,10 @@ jobs:
         run: ls -a
       #quarto step
       - name: Até mais!
-        run: echo "See you, Github Actions!"
+        #agora nosso step tem vários comandos shell
+        run: |
+            echo "See you, Github Actions!"
+            echo "Bye!"
+            echo "Bye yet again"
       
     
